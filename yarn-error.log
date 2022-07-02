@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\软件下载\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Windows\apache-maven\bin;"C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin";C:\Progr;D:\软件下载\bin;D:\项目管理\外包的项目\mysql\mysql-5.7.30-winx64\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\谷歌下载的文件\HBuilderX\plugins\launcher\tools\adbs;C:\ProgramData\chocolatey\bin;C:\Users\28338\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\软件下载\;C:\Python39\Scripts\;C:\Python39\;C:\Users\28338\AppData\Local\Microsoft\WindowsApps;D:\软件下载\Microsoft VS Code\bin;C:\Users\28338\AppData\Roaming\npm;C:\Users\28338\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: [https://registry.npm.taobao.org]/vitepress: Invalid URI "[https://registry.npm.taobao.org]/vitepress"
+      at Request.module.exports.Request.init (C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:140978:31)
+      at new Request (C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:140832:8)
+      at request (C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:137738:10)
+      at RequestManager.execute (C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:66197:15)
+      at RequestManager.shiftQueue (C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:66235:10)
+      at C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:65905:13
+      at new Promise (<anonymous>)
+      at new F (C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:5305:28)
+      at RequestManager.request (C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:65903:19)
+      at NpmRegistry.<anonymous> (C:\Users\28338\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:31751:42)
+
+npm manifest: 
+  {
+    "name": "my-vitepress-blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "vitepress dev docs",
+      "build": "vitepress build docs",
+      "serve": "vitepress serve docs",
+      "register:components": "vitepress-rc",
+      "docs:serve": "vitepress serve docs --port 8080"
+      
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "vitepress": "^1.0.0-alpha.4",
+      "vitepress-theme-demoblock": "^1.4.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
