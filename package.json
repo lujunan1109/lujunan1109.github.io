@@ -9,7 +9,6 @@
     "serve": "vitepress serve docs",
     "register:components": "vitepress-rc",
     "docs:serve": "vitepress serve docs --port 8080"
-    
   },
   "keywords": [],
   "author": "",
