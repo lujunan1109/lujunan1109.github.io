@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as e}from"./app.34944ec2.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"skills/vue.md"}'),l={name:"skills/vue.md"},o=e("",5),t=[o];function p(r,c,D,y,F,i){return a(),n("div",null,t)}var A=s(l,[["render",p]]);export{d as __pageData,A as default};
