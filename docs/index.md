@@ -3,10 +3,10 @@
  * @Author: lujunan
  * @Date: 2022-07-02 12:27:59
  * @LastEditors: lujunan
- * @LastEditTime: 2022-07-02 12:49:56
+ * @LastEditTime: 2022-07-03 18:44:42
 -->
 ---
-layout: home
+layout: home1
 
 hero:
   name: VuePress
