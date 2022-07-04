@@ -1,23 +1,8 @@
-<!--
- * @Description: 
- * @Author: lujunan
- * @Date: 2022-07-02 12:27:59
- * @LastEditors: lujunan
- * @LastEditTime: 2022-07-03 18:44:42
--->
----
-layout: home1
+### 下半年目标:
+  1. 系统化完善自己的前端知识体系         目标明年回长沙找工作
+  2. 健身减肥                           目标年底稳定在75kg
+### 过程:
+  1. 每日总结自己的学习进度
+  2. 每周至少3次hit健身训练
 
-hero:
-  name: VuePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /home/index
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
----
 

@@ -3,13 +3,13 @@
  * @Author: lujunan
  * @Date: 2022-07-02 10:53:20
  * @LastEditors: lujunan
- * @LastEditTime: 2022-07-02 13:26:18
+ * @LastEditTime: 2022-07-04 20:59:01
  */
 // vitepress/config.js
 module.exports = {
   title: "lulujunan__BLOG",// 网站标题
   description: '我的vitepress博客.', //网站描述
-  base: '/dist/', //  部署时的路径 默认 /  可以使用二级地址 /base/
+  base: '/docs/.vitepress/dist/', //  部署时的路径 默认 /  可以使用二级地址 /base/
   // lang: 'en-US', //语言
   // 网页头部配置，引入需要图标，css，js
   head: [
@@ -57,10 +57,10 @@ module.exports = {
       ],
       '/': [
         {
-          text: '基础知识',
+          text: '日常记录',
           items: [
-            { text: '基础', link: '/ts/basics' }, // link 和 头部导航的 link 对应， 访问文件为 docs/ts/basics.md 文件
-            { text: '内置类型', link: '/ts/inside-type' },
+            { text: '首页', link: '/' },
+            { text: '7月份记录', link: '/july/index' },
           ]
         },
       ],
